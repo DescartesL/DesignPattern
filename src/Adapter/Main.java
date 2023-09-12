@@ -5,7 +5,6 @@ public class Main {
         RoundHole hole = new RoundHole(5);
         RoundPeg peg = new RoundPeg(5);
         System.out.println(hole.fits(peg));
-
         SquarePeg smallSquarePeg = new SquarePeg(5);
         // This will not compile
         // System.out.println(hole.fits(smallSquarePeg));
