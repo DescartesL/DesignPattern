@@ -7,7 +7,11 @@ public class RoundHole {
         this.radius = radius;
     }
 
-    public void fits(){
-        System.out.println("RoundHole: fits");
+    public int getRadius(){
+        return radius;
+    }
+
+    public boolean fits(RoundPeg peg){
+        return this.getRadius() >= peg.getRadius();
     }
 }
